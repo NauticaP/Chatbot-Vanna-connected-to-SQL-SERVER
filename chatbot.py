@@ -22,7 +22,7 @@ from llamadas import (
     generate_summary_cached, setup_vanna
 )
 
-avatar_url = "S3comLogo.png"
+avatar_url = "Inserte imagen"
 
 # Inicialización del historial de mensajes
 if "messages" not in st.session_state:
