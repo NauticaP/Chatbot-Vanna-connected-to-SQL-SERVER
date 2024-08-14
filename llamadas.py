@@ -33,8 +33,8 @@ def create_connection(db_name, db_server, db_user):
 # ----------------------------------------------------------------------------------------------
 @st.cache_resource(ttl=3600)
 def setup_vanna():
-    api_key = '0cc56619601643e1b3831519a35abdc5'
-    model = 'nauticap'
+    api_key = 'api key'
+    model = 'model'
 
     # Crea la conexión a la base de datos usando pyodbc
     connection_string = f'DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={db_server};DATABASE={db_name};Trusted_Connection=yes;USER={db_user}'
