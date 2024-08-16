@@ -5,8 +5,8 @@ from llamadas import setup_vanna, create_connection
 #-----------------------------------------------------
 # Entrenamos el modelo de Vanna pasandole toda la BBDD
 #-----------------------------------------------------
-db_name="SAWDB"
-db_server="LMRP"
+db_name="Database name"
+db_server="Server name"
 db_user='sa'
 db_password=''
 
